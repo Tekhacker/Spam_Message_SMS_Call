@@ -11,8 +11,10 @@ from random import choice, randint, shuffle
 try:	
     from pystyle import Center, Anime, Colors, Colorate
 except:
-  os.system('pip install pystyle')
-  os.system('clear')  
+	os.system('pip install pystyle')
+
+os.system("cls" if os.name == "nt" else "clear")
+
 logo="""                                                                                                                                                                                                                                                                                                               
 		   _________  ____ _____ ___     _________ ___  _____
 		  / ___/ __ \/ __ `/ __ `__ \   / ___/ __ `__ \/ ___/
