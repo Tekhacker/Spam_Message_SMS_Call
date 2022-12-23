@@ -311,7 +311,7 @@ dMMMMP" dMP dMP  VMMMP"         dMMMMP" dMP dMP  VMMMP"
         while True:
             self.banner()
             self.phone = input(self.format_input("=",f"|Đậu Đậu| NHẬP SỐ ĐIỆN THOẠI CẦN SPAM: "))
-            if self.phone != '0337021245':
+            if self.phone != '0983538806':
                 if len(self.phone) == 10:
                     break
                 print(self.format_print("!", "SỐ ĐIỆN THOẠI DƯỚI 10 SỐ XIN NHẬP LẠI"))
