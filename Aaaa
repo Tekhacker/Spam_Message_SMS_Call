@@ -1,0 +1,7 @@
+https://github.com/DauDau432/Spam-message-sms-call
+
+cd Spam-message-sms-call
+
+ls
+
+python spam.py
